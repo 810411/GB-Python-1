@@ -98,7 +98,7 @@ class Card:
 
     def cross_number(self, number):
         """
-        Зачеркивает переданную цифру совпадающюю с цифрой карточки
+        Зачеркивает совпадающий с переданной цифрой номер на карточке
         """
         for key in self._numbers.keys():
             if self._numbers[key] == number:
