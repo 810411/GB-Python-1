@@ -54,13 +54,13 @@ print('{} {} {} года.'.format(day, month, int(d[6:10])))
 # Подсказка:
 # для получения случайного числа используйте функцию randint() модуля random
 
-random_list = []
+numbers_list = []
 n = int(input('Введите количество элементов: '))
 
 for i in range(0, n):
-    random_list.append(random.randint(-100, 100))
+    numbers_list.append(random.randint(-100, 100))
 
-print(random_list)
+print(numbers_list)
 
 # Задача-4: Дан список, заполненный произвольными целыми числами.
 # Получите новый список, элементами которого будут: 
