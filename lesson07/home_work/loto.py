@@ -158,7 +158,7 @@ class Game:
                 else:
                     print(self._notice[0])
                     break
-            elif choose == 'n':
+            else:
                 if self._player_card.validate_number(keg):
                     print(self._notice[0])
                     break
