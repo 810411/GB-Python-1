@@ -1,0 +1,4 @@
+name player
+health 100
+damage 50
+armor 1.2
